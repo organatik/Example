@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test-drive</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.css">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+    $(function(){
+      
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="header-top">
+				<ul>
+					<li class="header-top_li_left"><img src="img/flag_usa.png"> </li>
+					<li class="header-top_li_left">(USA)<i class="fa fa-angle-down " aria-hidden="true"></i></li>
+					<li class="header-top_li_left">|</li>
+					<li class="header-top_li_left">WELCOME,<i><span class="normal"> Please</span> <a href="#"> Sign in</a></i></li>
+					<li class="header-top_li_right1"><i class="fa fa-search fa-lg" aria-hidden="true"></i> <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i> (4) </li>
+					<li class="header-top_li_right2"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> (1)</li>	
+					<li class="header-top_li_right">|</li>
+					<li class="header-top_li_right">$14.99</li>
+				</ul>
+			</div>
+			<div class="header-middle">
+				
+				<div >
+					<p>FREE DELIVERY OVER £45*</p>
+					<p>FREE NEXT DAY DELIVERY OVER £65</p>
+				</div>
+				
+				<div >
+					<h1>new look</h1>
+				</div>
+				<div>
+					 <p>FREE RETURNS*</p>
+					 <p>FREE CLICK & COLLECT OVER £19.99</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#">NEW IN</a></li>
+					<li><a href="#">WOMENS</a></li>
+					<li><a href="#">SHOES & ACCESSORIES</a></li>
+					<li><a href="#">MATERNITY</a></li>
+					<li><a href="#">PLUS SIZE</a></li>
+					<li><a href="#">MENS</a></li>
+					<li><a href="#">TEENS</a></li>
+					<li><a href="#">TREND</a></li>
+					<li><a href="#">SALE</a></li>
+				</ul>
+			</nav>
+			<div class="header-bottom">
+				<p>&#8212; new collection &#8212;</p>
+				<h2>Texture Rich & Full Of Life</h2>
+				<button>shop now</button>
+			</div>
+		</div>	
+		<div class="content">
+			<div class="content-top">
+				<div>
+					<h2>NEW  SEASON jacket</h2>
+					<p> 
+					    The perfect balance of summer fun dressed up in<br> 
+                        luxurious suedes for any early fall adventure.
+                  	</p>
+                  	<p>$14.99</p>
+					<button>Shop New in</button>
+				</div>
+				
+				<div></div>
+			</div>
+			<div class="content-center">
+				<div class="social"></div>
+				<div><div><p><span>sale</span> man collection <img src="img/romb.png"></p></div></div>
+				<div><div><p>Shop SWIMWEAR</p><img src="img/romb.png"></div></div>
+				<div><div><p>Trend Guides<img src="img/romb.png"></p></div></div>
+				<div></div>
+			</div>
+			
+			<div class="content-bottom">
+				<h2>NEW COLLECTION</h2>
+				<div id="container" class="cf">
+					<div id="main" role="main">
+				      <section class="slider">
+				        <div class="flexslider">
+				          <ul class="slides">
+				                <li>
+				  	    	    <img src="img/first.png"/>
+				  	    		</li>
+				  	    		<li>
+				  	    	    <img src="img/first.png"/>
+				  	    		</li>
+				  	    		<li>
+				  	    	    <img src="img/first.png"/>
+				  	    		</li>
+				  	    		<li>
+				  	    	    <img src="img/first.png"/>
+				  	    		</li>
+				          </ul>
+				        </div>
+				      </section>
+				    </div>
+				  
+				  </div>
+			</div>
+			<div class="content-map">
+				<h2>Store locator</h2>
+				<p>Select a store in your country on the map</p>
+				<button>visit Store Locator</button>
+				
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-top">
+				<ul>
+					<li>Sign Up for email</li>
+					<li>
+						<form class="email">
+							<input type="email" placeholder="Enter your email address"></input><button><i class="fa fa-envelope-o" aria-hidden="true"></i>sign up</button>
+						</form>
+						
+					</li>					
+					<li>Click & Collect.<br><span>Buy online. Collect in store.</span></li>
+				</ul>
+			</div>
+			<div class="footer-bottom">
+				<ul>
+					<li><a href="#">CUSTOMER CARE</a></li>
+					<li><a href="#">DELIVERY & RETURN</a></li>
+					<li><a href="#">CARDS & DISCOUNTS</a></li>
+					<li><a href="#">COMPANY INFO</a></li>
+					<li><a href="#">© 2014 New Look Retailers Limited.</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
